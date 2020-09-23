@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO', 'OTHER_LDFLAGS' => '-lstdc++ -lz -llept -ltesseract_all', 'LIBRARY_SEARCH_PATHS' => '"${PODS_ROOT}/TesseractOCRiOS/TesseractOCR/lib"', 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/OpenCV" "${PODS_ROOT}/TesseractOCRiOS/Products"', 'CLANG_WARN_DOCUMENTATION_COMMENTS' => 'NO' }
   s.dependency 'React'
   s.dependency 'OpenCV', '~> 3.1.0.1'
-  s.dependency 'TesseractOCRiOS', '~> 3.03'
+  s.dependency 'TesseractOCRiOS'
 end
